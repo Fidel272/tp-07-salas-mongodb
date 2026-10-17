@@ -47,10 +47,7 @@ npm run comprobardb
 ```bash
 npm run crear
 ```
-- Consultar y listar todas las reservas:
-```bash
-npm run listar
-```
+
 - Consultar y listar todas las reservas:
 ```bash
 npm run listar
@@ -59,6 +56,11 @@ npm run listar
 - Verificación de calidad de código (Prettier y ESLint):
 ```bash
 npm run check
+```
+
+- Iniciar la aplicación web (sitio HTTP en memoria):
+```bash
+npm start
 ```
 
 ## 5. Mapa de archivos y explicación de la arquitectura
@@ -130,5 +132,3 @@ El servicio web Express y las rutas operan actualmente sobre el almacenamiento e
 ## 9. Seguridad y Privacidad
 - Se confirma que no se publican credenciales de acceso, contraseñas de la base de datos ni datos personales sensibles en el repositorio.
 - El archivo `.env` con credenciales reales se encuentra excluido mediante `.gitignore`, versionando únicamente la plantilla pública `.env.example`.
-
-### Matriz de Pruebas Realizada
